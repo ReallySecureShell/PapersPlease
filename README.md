@@ -23,7 +23,7 @@ As I’m not going to be responsible for some kid taking every port-forwarded pr
 on the Internet, as funny as that would be. 
 
 NOTE: To recover from the vulnerability after being exploited, you will have to power-cycle your printer.
-As the exploit is crashing an internal process in the printer, which causes said printer to go into a 
+As the exploit is crashing an internal process which causes the printer to go into a 
 "failed" state.
 
 Additionally:<br>
@@ -35,7 +35,7 @@ While the inner workings are more complicated, the exploit in its purest form is
 `curl [IP]:9220 -X 'open 99999999'`<br>
 As mentioned above, the printer will go into a failed state and remain in said state until restarted.
 
-## CLI Options
+### CLI Options
 
 `-t`, `--target={IP}`       Specify a specific target rather than all addresses on the network.
 
