@@ -34,9 +34,9 @@ At this time it is unknown exactly why the GGW server crashes when receiving suc
 An exploited printer will need to be power-cycled in order to return to a working-state.
 
 ## Known Affected Models
-| Model | DoS | Mass Print |
-| :---:  | :---: | :---: |
-|  HP Envy 7640  |  True  |  False  |
+| Model | GGW Version | DoS | Mass Print |
+| :---:  | :---: | :---: | :---: |
+| HP Envy 7640 |  V:1.0  |  True  |  False  |
 
 **NOTE**:<br>
 While the above models are confirmed to be vulnerable, you will usually not know what you are exploiting in the real world.
