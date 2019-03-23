@@ -36,7 +36,7 @@ An exploited printer will need to be power-cycled in order to return to a workin
 ## Known Affected Models
 | Model | DoS | Mass Print | GGW Version |
 | :---:  | :---: | :---: | ---: |
-| HP Envy 7640 |  True  |  False  |  V:1.0  |
+| HP Envy 7640 |  True  |  False  |  Version:1.0  |
 
 **NOTE**:<br>
 While the above models are confirmed to be vulnerable, you will usually not know what you are exploiting in the real world.
