@@ -25,7 +25,6 @@ on the Internet, as funny as that would be.
 NOTE: To recover from the vulnerability after being exploited, you will have to power-cycle your printer.
 As the exploit is crashing an internal process in the printer, which causes said printer to go into a 
 "failed" state.
-
 <br>Additionally:<br>
 This script is fully compatible with `Termux` for Android.
 
