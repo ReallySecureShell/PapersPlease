@@ -24,7 +24,8 @@ on the Internet, as funny as that would be.
 
 While the inner workings are more complicated, the exploit in its purest form is as follows:<br>
 `curl [IP]:9220 -X 'open 99999999'`<br>
-As mentioned above, the printer will go into a failed state and remain in said state until restarted.
+Whats happening here is we are telling the internal GGW server to retrieve the process name running on index number 99999999. However upon receiving the request, the GGW server will instantly crash.
+At this time it is unknown exactly why the GGW server crashes when receiving such a request as it is well within range of the allowed index number length which is any number <= 19 digits. In addition, the index number passed to the GGW server can be either eight or nine digits in length. 
 
 ## Recovering from Exploit
 
