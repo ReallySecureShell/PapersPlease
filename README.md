@@ -22,7 +22,7 @@ Also note that while exploiting a network range, you will only be able to specif
 As I’m not going to be responsible for some kid taking every port-forwarded printer down 
 on the Internet, as funny as that would be. 
 
-NOTE: To recover from the vulnerability after being exploited, you will have to power-cycle your printer.
+NOTE: An exploited printer will need to be power-cycled in order to return to a working-state.
 As the exploit is crashing an internal process which causes the printer to go into a 
 "failed" state.
 
