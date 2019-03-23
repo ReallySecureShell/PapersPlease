@@ -2,7 +2,7 @@
 A Denial of Service exploit for some HP printers
 <div align="center">
 
-<img src="Papers_Please_Logo.png" width="20%" />
+<img src="./Assets/Papers_Please_Logo.png" width="20%" />
 <br><br>
 
 Another terminal based graphical activity monitor, inspired by [gtop](https://github.com/aksakalli/gtop) and [vtop](https://github.com/MrRio/vtop), this time written in [Go](https://golang.org/)!
