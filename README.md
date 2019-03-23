@@ -37,7 +37,7 @@ As mentioned above, the printer will go into a failed state and remain in said s
 
 ## Known Affected Models
 | Model | DoS | Mass Print |
-| :---  | :---: |     :---: |
+| :---:  | :---: | :---: |
 |  HP Envy 7640  |  True  |  False  |
 
 **NOTE**:<br>
