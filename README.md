@@ -40,7 +40,7 @@ This script is fully compatible with `Termux` for Android.
                             N number of pages.              
 
 `-i`, `--interval={N}`      The interval before another job is sent to the printer. Where N can be a decimal
-                            i.e. 0.1 or a whole                           number. The default interval is 1.              
+                            i.e. 0.1 or a whole number. The default interval is 1.              
               
 `-j`, `--jobs={-N|+N|N%|N}` Number of jobs to run. Passes value to parallel. Defaults to 0.
               
@@ -49,7 +49,7 @@ This script is fully compatible with `Termux` for Android.
 `-s`, `--slots={-N|+N|N%|N}`The amount of 'slots' available to be used by parallel for jobs. Default is 252.
 
 `-P`, `--port={PORT}`       Specify a specific port. Useful for port-forwarded hosts. Port number is set 
-                            automatically based on the               attack being preformed. PORT can be any number ranging
+                            automatically based on the attack being preformed. PORT can be any number ranging
                             from 1 to 65535. 
 
 `--no-check`                Will skip dependency checking.
