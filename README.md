@@ -22,16 +22,15 @@ Also note that while exploiting a network range, you will only be able to specif
 As I’m not going to be responsible for some kid taking every port-forwarded printer down 
 on the Internet, as funny as that would be. 
 
-NOTE:<br> An exploited printer will need to be power-cycled in order to return to a working-state.
-
-Additionally:<br>
-This script is fully compatible with `Termux` for Android.
-
 ## How It Works
 
 While the inner workings are more complicated, the exploit in its purest form is as follows:<br>
 `curl [IP]:9220 -X 'open 99999999'`<br>
 As mentioned above, the printer will go into a failed state and remain in said state until restarted.
+
+## Recovering from Exploit
+
+An exploited printer will need to be power-cycled in order to return to a working-state.
 
 ## Known Affected Models
 | Model | DoS | Mass Print |
@@ -42,6 +41,12 @@ As mentioned above, the printer will go into a failed state and remain in said s
 While the above models are confirmed to be vulnerable, you will usually not know what you are exploiting in the real world.
 As the program is made to be a 'point and shoot' no prior recon is required.
 However you can still specify specific printers with the `--target` flag.
+
+## Supported Platforms
+
+All x86-64 Linux distributions with parallel in their repositories and/or are able to build said package.
+
+Android phones are also compatible through `Termux`, an Android terminal application. 
 
 ## Usage
 
