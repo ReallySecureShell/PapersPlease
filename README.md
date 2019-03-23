@@ -12,7 +12,7 @@
 PapersPlease is an exploit that allows an attacker to remotely crash an HP printer.
 So far residential class printers have been observed to be exploitable by this vulnerability.
 The tool also comes with the ability to mass print documents from either a single printer 
-or all printers on a network by abusing HPs printing protocol found on port 9100.
+or all printers on a network by abusing HPs JetDirect protocol found on port 9100.
 
 Notice that the program will stop you from connecting to known government external 
 IP addresses. While not blocking all of them, it is there to stop skiddies from accidentally 
@@ -39,6 +39,11 @@ As mentioned above, the printer will go into a failed state and remain in said s
 | Model | DoS | Mass Print |
 | :---  | :---: |     ---: |
 |  HP Envy 7640  |  TRUE  |  False  |
+
+**NOTE**
+While the above models are confirmed to be vulnerable, you will usually not know what you are exploiting in the real world.
+As this program is made to be a 'point and shoot' you don't have to take scan for the printers and know what they are beforehand.
+However you can still specify specific printers with the `--target` flag.
 
 ## CLI Options
 
