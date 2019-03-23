@@ -25,14 +25,15 @@ on the Internet, as funny as that would be.
 NOTE: To recover from the vulnerability after being exploited, you will have to power-cycle your printer.
 As the exploit is crashing an internal process in the printer, which causes said printer to go into a 
 "failed" state.
-<br>AND<br>
+
+<br>Additionally:<br>
 This script is fully compatible with `Termux` for Android.
 
 ## How It Works
 
 While the inner workings are more complicated, the exploit in its purest form is as follows:<br>
 `curl [IP]:[9220] -X 'open 99999999'`<br>
-As mentioned above, the printer will then go into a failed state and remain in said state until restarted.
+As mentioned above, the printer will go into a failed state and remain in said state until restarted.
 
 
 ## Usage
