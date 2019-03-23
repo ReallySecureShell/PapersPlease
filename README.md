@@ -40,7 +40,7 @@ As mentioned above, the printer will go into a failed state and remain in said s
 | :---  | :---: |     ---: |
 |  HP Envy 7640  |  TRUE  |  False  |
 
-**NOTE**
+**NOTE**:<br>
 While the above models are confirmed to be vulnerable, you will usually not know what you are exploiting in the real world.
 As this program is made to be a 'point and shoot' you don't have to take scan for the printers and know what they are beforehand.
 However you can still specify specific printers with the `--target` flag.
