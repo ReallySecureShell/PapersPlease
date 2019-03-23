@@ -23,7 +23,7 @@ At this time it is unknown exactly why the GGW server crashes when receiving suc
 | Model | DoS | Mass Print | GGW Version |
 | :---:  | :---: | :---: | :---: |
 | HP Envy 7640 |  True  |  False  |  Version: 1.0  |
-
+| HP OfficeJet Pro 6978 |  True  |  True  |  Version: 1.0  |
 **NOTE**:<br>
 While the above list provides known exploitable models, these do not need to be known to an attacker prior to exploiting.
 
