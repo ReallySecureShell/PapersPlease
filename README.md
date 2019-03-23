@@ -32,7 +32,7 @@ This script is fully compatible with `Termux` for Android.
 
 ### CLI Options
 
-`-t`, `--target={IP}`       Specify a specific target rather than all addresses on the network.
+`-t`, `--target={IP}`       Specify a specific target rather than all addresses on the network.<br>
 `-n`, `--network={IP/CIDR}` Manually specify the network address for the current network you are on.
 `--papyrus={N}`             Number of jobs to send to the printer this should cause the printer to print 
                             N number of pages.              
