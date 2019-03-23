@@ -1,6 +1,4 @@
 
-# PapersPlease
-
 <div align="center">
 
 <img src="./Assets/Papers_Please_Logo.png" width="20%" />
