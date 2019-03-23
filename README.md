@@ -7,8 +7,7 @@
 
 ## Description
 
-PapersPlease is an exploit that allows an attacker to remotely crash an HP printer by exploiting the internal GGW server.
-So far residential class printers have been observed to be exploitable by this vulnerability.
+PapersPlease is an exploit that allows an attacker to perform a remote Denial of Service against an HP printer by exploiting the internal GGW server. So far residential class printers have been observed to be exploitable by this vulnerability.
 The tool also comes with the ability to mass print documents from either a single printer 
 or all printers on a network by abusing HPs JetDirect protocol found on port 9100.
 
