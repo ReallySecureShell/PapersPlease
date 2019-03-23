@@ -29,7 +29,6 @@ At this time it is unknown exactly why the GGW server crashes when receiving suc
 **NOTE**:<br>
 While the above models are confirmed to be vulnerable, you will usually not know what you are exploiting in the real world.
 As the program is made to be a 'point and shoot' no prior recon is required.
-However you can still specify specific printers with the `--target` flag.
 
 ## Supported Platforms
 
