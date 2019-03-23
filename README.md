@@ -12,14 +12,6 @@ So far residential class printers have been observed to be exploitable by this v
 The tool also comes with the ability to mass print documents from either a single printer 
 or all printers on a network by abusing HPs JetDirect protocol found on port 9100.
 
-Notice that the program will stop you from connecting to known government external 
-IP addresses. While not blocking all of them, it is there to stop skiddies from accidentally 
-(or purposefully) scanning government addresses… as that would be bad.  
-
-Also note that while exploiting a network range, you will only be able to specify a private IP address. 
-As I’m not going to be responsible for some kid taking every port-forwarded printer down 
-on the Internet, as funny as that would be. 
-
 ## How It Works
 
 While the inner workings are more complicated, the exploit in its purest form is as follows:
@@ -48,8 +40,6 @@ Android phones are also compatible through `Termux`, an Android terminal applica
 ## How to Use
 
 This program is designed to be very quick and simple to use. As most of the time it will not be required to pass any flags to the program. However you can manually enter which network is to be exploited or if not the entire network, then a specific printer. 
-<br><br>
-Please note that the flags: `--jobs`,`--proc`, and `--slots` can only be used with the `--network` flag. As those flags are used to help optimize devices when preforming the exploit on an entire network. When using the `--target` the program is only sending the payload to an individual device. When this happens the program will give you a friendly reminder that those options aren't used with the `--target` option then proceed to exploit the requested device. 
 
 ## Usage
 
