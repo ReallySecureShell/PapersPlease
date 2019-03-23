@@ -32,7 +32,7 @@ As the program is made to be a 'point and shoot' no prior recon is required.
 
 ## Supported Platforms
 
-All x86-64 Linux distributions with parallel in their repositories and/or are able to build said package.
+All x86-64 Linux distributions.
 
 Android phones are also compatible through `Termux`, an Android terminal application. 
 
