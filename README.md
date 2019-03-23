@@ -34,7 +34,7 @@ As the program is made to be a 'point and shoot' no prior recon is required.
 
 All x86-64 Linux distributions.
 
-Android phones are also compatible through `Termux`, an Android terminal application. 
+Android phones are also compatible through <a href="https://termux.com/">Termux</a>, an Android terminal application. 
 
 ## How to Use
 
