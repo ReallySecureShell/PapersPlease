@@ -59,4 +59,4 @@ This script is fully compatible with `Termux` for Android.
 
 `-v`, `--version`           Print version information then exit.
 
-`-h`, `--help`                        Print this dialog page.
+`-h`, `--help`              Print this dialog page.
