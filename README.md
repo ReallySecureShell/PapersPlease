@@ -35,9 +35,9 @@ This script is fully compatible with `Termux` for Android.
 `-t`, `--target={IP}`       Specify a specific target rather than all addresses on the network.<br>
 `-n`, `--network={IP/CIDR}` Manually specify the network address for the current network you are on.<br>
 `--papyrus={N}`             Number of jobs to send to the printer this should cause the printer to print 
-                            N number of pages.<br>              
+N number of pages.<br>              
 `-i`, `--interval={N}`      The interval before another job is sent to the printer. Where N can be a decimal
-                            i.e. 0.1 or a whole number. The default interval is 1.<br>              
+i.e. 0.1 or a whole number. The default interval is 1.<br>              
 `-j`, `--jobs={-N|+N|N%|N}` Number of jobs to run. Passes value to parallel. Defaults to 0.<br>
 `-p`, `--proc={-N|+N|N%|N}` Define the maximum N of processes that can be active at a time. Defaults to 1.<br>
 `-s`, `--slots={-N|+N|N%|N}`The amount of 'slots' available to be used by parallel for jobs. Default is 252.<br>
