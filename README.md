@@ -45,6 +45,11 @@ All x86-64 Linux distributions with parallel in their repositories and/or are ab
 
 Android phones are also compatible through `Termux`, an Android terminal application. 
 
+## How to Use
+
+This program is designed to be very quick and simple to use. As most of the time it will not be required to pass any flags to the program. However you can manually enter which network is to be exploited or if not the entire network, then a specific printer. 
+Please note that the flags: `--jobs`,`--proc`, and `--slots` can only be used with the `--network` flag. As those flags are used to help optimize devices when preforming the exploit on an entire network. When using the `--target` the program is only sending the payload to an individual device. 
+
 ## Usage
 
 ```
