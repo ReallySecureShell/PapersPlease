@@ -49,7 +49,7 @@ Android phones are also compatible through `Termux`, an Android terminal applica
 
 This program is designed to be very quick and simple to use. As most of the time it will not be required to pass any flags to the program. However you can manually enter which network is to be exploited or if not the entire network, then a specific printer. 
 <br><br>
-Please note that the flags: `--jobs`,`--proc`, and `--slots` can only be used with the `--network` flag. As those flags are used to help optimize devices when preforming the exploit on an entire network. When using the `--target` the program is only sending the payload to an individual device. When this happens the program will just give you a friendly reminder that those options aren't used with the `--target` option then proceed to exploit the requested device. 
+Please note that the flags: `--jobs`,`--proc`, and `--slots` can only be used with the `--network` flag. As those flags are used to help optimize devices when preforming the exploit on an entire network. When using the `--target` the program is only sending the payload to an individual device. When this happens the program will give you a friendly reminder that those options aren't used with the `--target` option then proceed to exploit the requested device. 
 
 ## Usage
 
