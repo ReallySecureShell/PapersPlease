@@ -45,7 +45,7 @@ While the above models are confirmed to be vulnerable, you will usually not know
 As the program is made to be a 'point and shoot' no prior recon is required.
 However you can still specify specific printers with the `--target` flag.
 
-## FLAGS
+## Usage
 
 `-t`, `--target={IP}`       Specify a specific target rather than all addresses on the network.
 
