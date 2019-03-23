@@ -25,8 +25,7 @@ At this time it is unknown exactly why the GGW server crashes when receiving suc
 | HP Envy 7640 |  True  |  False  |  Version: 1.0  |
 
 **NOTE**:<br>
-While the above models are confirmed to be vulnerable, you will usually not know what you are exploiting in the real world.
-As the program is made to be a 'point and shoot' no prior recon is required.
+While the above list provides known exploitable models, these do not need to be known to the attacker prior to exploiting.
 
 ## Supported Platforms
 
