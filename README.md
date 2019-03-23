@@ -22,7 +22,8 @@ on the Internet, as funny as that would be.
 
 ## How It Works
 
-While the inner workings are more complicated, the exploit in its purest form is as follows:<br>
+While the inner workings are more complicated, the exploit in its purest form is as follows:
+<br><br>
 `curl [IP]:9220 -X 'open 99999999'`
 <br><br>
 Whats happening here is we are telling the internal GGW server to retrieve the process name running on index number 99999999. However upon receiving the request, the GGW server will instantly crash.
