@@ -33,7 +33,7 @@ All x86-64 Linux distributions.
 
 Android phones are also compatible through <a href="https://termux.com/">Termux</a>, an Android terminal application. 
 
-## How to Use
+## How To Use
 
 This program is designed to be very quick and simple to use. As most of the time it will not be required to pass any flags to the program. However you can manually enter which network is to be exploited with the `--network` flag. Or if not the entire network then a specific printer with the `--target` flag. In addition you can optimize the program through the `--jobs`, `--proc`, and `--slots` flags. These flags can be used when exploiting a large LAN i.e. a /16 (65534 hosts) or greater, however they can be used with any sized network. 
 
