@@ -1,6 +1,8 @@
 
 # PapersPlease
+
 <div align="center">
+
 A Denial of Service exploit for some HP printers
 
 <img src="./Assets/Papers_Please_Logo.png" width="20%" />
