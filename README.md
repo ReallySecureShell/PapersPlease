@@ -7,7 +7,7 @@
 
 ## Description
 
-PapersPlease is an exploit that allows an attacker to perform a remote Denial of Service against an HP printer by exploiting the internal GGW server. The tool also comes with the ability to mass print documents from either a single printer 
+PapersPlease is an exploit that allows an attacker to perform a remote Denial of Service against an HP printer by exploiting the internal GGW server found on port 9220. The tool also comes with the ability to mass print documents from either a single printer 
 or all printers on a network by abusing HPs JetDirect protocol found on port 9100.
 
 ## How It Works
