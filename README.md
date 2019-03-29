@@ -95,8 +95,23 @@ OPTION:			    DESCRIPTION:
 			    number ranging
 			    from 1 to 65535. 
 
+-a, --allow-all		    All address ranges 
+			    are allowed. BE CAREFUL 
+			    in this mode as it
+			    permits scanning of
+			    ANY address without
+			    restriction.
+
+--no-scan		    Disables the automatic
+			    printer discovery scan.
+			    By disabling this function
+			    the attacker might not
+			    know how many hosts were
+			    successfully brought
+			    down.
+
 --no-check		    Will skip dependency
-			    checking.
+                            checking.
 
 -q, --quiet		    Suppress output to
 			    terminal. Only the
