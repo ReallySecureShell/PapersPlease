@@ -125,6 +125,6 @@ OPTION:			    DESCRIPTION:
 			    information
 			    then exit.
 
--h, --help		    Print this
-			    dialog page.
+-h, --help		    Display help
+			    text then exit.
 ```
