@@ -36,7 +36,7 @@ Android phones are also compatible through <a href="https://termux.com/">Termux<
 
 ## How To Use
 
-This program is designed to be very quick and simple to use. As most of the time it will not be required to pass any flags to the program. However you can manually enter which network is to be exploited with the `--network` flag. If not attacking an entire network, then use the `--target` flag to specify a specific host. In addition you can optimize the program through the `--jobs`, `--proc`, and `--slots` flags. These flags can be used when exploiting a large LAN i.e. a /16 (65534 hosts) or greater, however they can be used with any sized network. 
+This program is designed to be very quick and simple to use. As most of the time it will not be required to pass any flags to the program. However you can manually enter which network is to be exploited with the `--network` flag. If not attacking an entire network, then use the `--target` flag to specify a specific host. You can optimize the program through the `--jobs`, `--proc`, and `--slots` flags. These flags can be used when exploiting a large LAN i.e. a /16 (65534 hosts) or greater, however they can be used with any sized network. Additionally Papers_Please will automatically scan for printers by default or when given an address range with the `--network` flag. The scan can take a considerable amount of time, even for a /24 network. However automatic scanning can be skipped by specifying the `--no-scan` flag.
 
 ## Usage
 
