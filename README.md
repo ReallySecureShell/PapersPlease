@@ -38,6 +38,13 @@ Android phones are also compatible through <a href="https://termux.com/">Termux<
 
 Papers_Please is designed to be very quick and simple to use. As often times Papers_Please can be run without any flags. However, you can specify a network range with the `--network` flag. Or if not attacking an entire network, then use the `--target` flag to specify a specific host. You can optimize Papers_Please through the `--jobs`, `--proc`, and `--slots` flags. Said optimization options are also active by default with values of: 0, 1, and 252 respectively. Additionally Papers_Please will automatically scan for printers by default or when given an address range with the `--network` flag. However this functionality can be disabled with the `--no-scan` flag.
 
+## Required Software
+
+| Package | Version | Platform |
+| :---:   | :---:   | :---:    |
+| Busybox |  1.30.1  |  Android  |  
+| HP OfficeJet Pro 6978 |   |    | 
+
 ## Usage
 
 ```
