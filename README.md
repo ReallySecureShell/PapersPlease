@@ -31,7 +31,7 @@ When abusing the JetDirect protocol, PapersPlease will connect to port 9100 on t
 | HP OfficeJet Pro 6978 |  True  |  True  |  Version: 1.0  |
 
 **NOTE**:<br>
-While the above list provides known exploitable models, these do not need to be known to an attacker prior to exploiting.
+While the above list provides known exploitable models, these do not need to be known to an attacker prior to attacking.
 
 ## Required Software
 
