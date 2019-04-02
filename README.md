@@ -15,8 +15,7 @@ The **Denial of Service** exploit is as follows:
 <br><br>
 `curl [IP]:9220 -X 'open 99999999'`
 <br><br>
-Whats happening here is we are telling the internal GGW server to retrieve the process name running on index number 99999999. However upon receiving the request, the GGW server will instantly crash.
-At this time it is unknown exactly why the GGW server crashes when receiving such a request. In addition, any index number 8 or 9 digits in length will cause the GGW server to crash.
+Whats happening here is we are telling the internal GGW server to retrieve the process name running on index number 99999999. However upon receiving the request, the GGW server will instantly crash. In addition, any index number 8 or 9 digits in length also causes the GGW server to crash.
 
 The **mass-print** exploit is as follows: 
 <br><br>
