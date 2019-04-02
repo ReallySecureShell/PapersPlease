@@ -52,7 +52,7 @@ Papers_Please is designed to be very quick and simple to use. As often times Pap
 | Parallel | 20161222(x86-64),20180222(Android) |  Both  |
 
 **NOTE**:<br>
-The software versions are not to be taken as an absolute requirement. They are only present as a reference for debugging purposes. 
+Exact software versions are not required. They are only present as a reference for debugging purposes. 
 
 ## Usage
 
