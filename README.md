@@ -39,9 +39,9 @@ Termux is only available for **Android 5.0 and later**.
 | Sed (GNU) |  4.2.2  |  x86-64  |
 | Busybox |  1.30.1  |  Android  |
 | Iproute2 |  4.3.0  |  x86-64  |
-| Parallel | 20161222 (x86-64),20180222 (Android) |  Both  |
+| Parallel | 20161222 (x86-64)\|\|20180222 (Android) |  Both  |
 | Curl |  7.47.0-1ubuntu2.12  |  x86-64  |
-| Bc |  1.06.95 (x86-64),1.07.1 (Android)  |  Both  |
+| Bc |  1.06.95 (x86-64)\|\|1.07.1 (Android)  |  Both  |
 
 **NOTE**:<br>
 Exact software versions are not required. They are only present as a reference for debugging purposes. 
