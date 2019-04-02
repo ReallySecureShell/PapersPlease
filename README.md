@@ -11,19 +11,18 @@ PapersPlease is an exploit that allows an attacker to perform a remote **Denial 
 
 ## How It Works
 
-While the inner workings are more complicated, the exploit in its purest form is as follows:
+The **Denial of Service** exploit is as follows:
 <br><br>
 `curl [IP]:9220 -X 'open 99999999'`
 <br><br>
 Whats happening here is we are telling the internal GGW server to retrieve the process name running on index number 99999999. However upon receiving the request, the GGW server will instantly crash.
 At this time it is unknown exactly why the GGW server crashes when receiving such a request as it is well within range of the allowed index number length which is any number <= 19 digits. In addition, any index number 8 or 9 digits in length will cause the GGW server to crash.
 
-When abusing the JetDirect protocol, Papers_Please will connect to port 9100 on the remote host, then immediately disconnect. Which in some cases causes a document to be printed.<br>
-The following is how to preform the vulnerability against the JetDirect protocol: 
+The **mass-print** exploit is as follows: 
 <br><br>
 `curl [IP]:9100 -m 1 -X 'Foo Bar'`
-<br><br> 
-With this exploit an attacker can print hundreds of copies from any vulnerable printer, wasting paper and ink. 
+<br><br>
+When abusing the JetDirect protocol, Papers_Please will connect to port 9100 on the remote host, then immediately disconnect. Which in some cases causes a document to be printed. With this exploit an attacker can print hundreds of copies from any vulnerable printer, wasting paper and ink. 
 
 ## Known Affected Models
 | Model | DoS | Mass Print | GGW Version |
