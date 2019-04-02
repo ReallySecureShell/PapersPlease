@@ -9,7 +9,7 @@
 
 PapersPlease is an exploit that allows an attacker to perform a remote **Denial of Service** against an HP printer by crashing the internal GGW server. Additionally, PapersPlease is capable of **mass printing** documents from one or more printers on a network.
 
-## How It Works
+## Payload Examples
 
 The **Denial of Service** exploit is as follows:
 <br><br>
