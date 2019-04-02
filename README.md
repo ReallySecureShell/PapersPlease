@@ -18,6 +18,13 @@ While the inner workings are more complicated, the exploit in its purest form is
 Whats happening here is we are telling the internal GGW server to retrieve the process name running on index number 99999999. However upon receiving the request, the GGW server will instantly crash.
 At this time it is unknown exactly why the GGW server crashes when receiving such a request as it is well within range of the allowed index number length which is any number <= 19 digits. In addition, any index number 8 or 9 digits in length will cause the GGW server to crash.
 
+When abusing the JetDirect protocol, Papers_Please will connect to port 9100 on the remote host, then immediately disconnect. Which in some cases causes a document to be printed.<br>
+The following is how to preform the vulnerability against the JetDirect protocol: 
+<br><br>
+`curl [IP]:9100 -m 1 -X 'Foo Bar'`
+<br><br> 
+With this exploit an attacker can print hundreds of copies from any vulnerable printer, wasting paper and ink. 
+
 ## Known Affected Models
 | Model | DoS | Mass Print | GGW Version |
 | :---:  | :---: | :---: | :---: |
@@ -48,7 +55,7 @@ Exact software versions are not required. They are only present as a reference f
 
 ## How To Use
 
-Papers_Please is designed to be quick and simple to use, often times not requiring flags in order to run. You can specify a **network range** with the `--network` flag or a **single host** with the `--target` flag. You can **optimize** Papers_Please through the `--jobs`, `--proc`, and `--slots` flags. Optimizations are active by default with values of: 0, 1, and 252 respectively. By default or when passing the `--network` flag, Papers_Please will automatically scan for printers. Automatic scanning can be disabled with the `--no-scan` flag. Additionally Papers_Please can **mass print** by passing the `--papyrus` flag. This will cause Papers_Please to connect to port 9100 (JetDirect) on the remote host, then immediately disconnect. Which in some cases causes a document to be printed. Finally, to **disable all address restrictions**, pass the `--allow-all` flag. By specifying said flag, all public and private IP addresses will be allowed, in addition to all CIDR prefixes less-than or equal to 30.
+Papers_Please is designed to be quick and simple to use, often times not requiring flags in order to run. You can specify a **network range** with the `--network` flag or a **single host** with the `--target` flag. You can **optimize** Papers_Please through the `--jobs`, `--proc`, and `--slots` flags. Optimizations are active by default with values of: 0, 1, and 252 respectively. By default or when passing the `--network` flag, Papers_Please will automatically scan for printers. Automatic scanning can be disabled with the `--no-scan` flag. Additionally Papers_Please can **mass print** by passing the `--papyrus` flag, which can be used with either `--network` or `--target`. Finally, to **disable all address restrictions**, pass the `--allow-all` flag. By specifying said flag, all public and private IP addresses will be allowed, in addition to all CIDR prefixes less-than or equal to 30.
 
 ## Usage
 
