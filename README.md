@@ -30,7 +30,8 @@ While the above list provides known exploitable models, these do not need to be 
 
 ## Required Software
 
-Android users will need to install <a href="https://termux.com/">Termux</a> from the <a href="https://play.google.com/store/apps/details?id=com.termux">Google Play Store</a>.
+Android users will need to install <a href="https://termux.com/">Termux</a> from the <a href="https://play.google.com/store/apps/details?id=com.termux">Google Play Store</a>.<br>
+Termux is only available for **Android 5.0 and later**.
 
 | Package | Version | Platform |
 | :---:   | :---:   | :---:    |
@@ -39,16 +40,16 @@ Android users will need to install <a href="https://termux.com/">Termux</a> from
 | Sed (GNU) |  4.2.2  |  x86-64  |
 | Busybox |  1.30.1  |  Android  |
 | Iproute2 |  4.3.0  |  x86-64  |
-| Parallel | 20161222(x86-64),20180222(Android) |  Both  |
+| Parallel | 20161222 (x86-64),20180222 (Android) |  Both  |
 | Curl |  7.47.0-1ubuntu2.12  |  x86-64  |
-| Bc |  1.06.95(x86-64),1.07.1(Android)  |  Both  |
+| Bc |  1.06.95 (x86-64),1.07.1 (Android)  |  Both  |
 
 **NOTE**:<br>
 Exact software versions are not required. They are only present as a reference for debugging purposes. 
 
 ## How To Use
 
-Papers_Please is designed to be very quick and simple to use. As often times Papers_Please can be run without any flags. However, you can specify a network range with the `--network` flag. Or if not attacking an entire network, then use the `--target` flag to specify a specific host. You can optimize Papers_Please through the `--jobs`, `--proc`, and `--slots` flags. Said optimization options are also active by default with values of: 0, 1, and 252 respectively. Additionally Papers_Please will automatically scan for printers by default or when given an address range with the `--network` flag. However this functionality can be disabled with the `--no-scan` flag.
+Papers_Please is designed to be very quick and simple to use, often times not requiring flags in order to run. You can specify a **network range** with the `--network` flag or a **single host** with the `--target` flag. You can optimize Papers_Please through the `--jobs`, `--proc`, and `--slots` flags. Said options are active by default with values of: 0, 1, and 252 respectively. By default or when passing the `--network` flag Papers_Please will automatically scan for printers. Automatic scanning can be disabled with the `--no-scan` flag. Additionally Papers_Please can **mass print** by passing the `--papyrus` flag. This will cause Papers_Please to connect to port 9100 (JetDirect) on the remote host, then immediately disconnect. Which in some cases causes a document to be printed. Finnally, to **disable all address restrictions**, pass the `--allow-all` flag. By specifying said flag, all public and private IP addresses will be allowed in addition to all CIDR ranges.
 
 ## Usage
 
