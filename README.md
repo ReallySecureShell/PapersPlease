@@ -43,7 +43,13 @@ Papers_Please is designed to be very quick and simple to use. As often times Pap
 | Package | Version | Platform |
 | :---:   | :---:   | :---:    |
 | Busybox |  1.30.1  |  Android  |  
-| HP OfficeJet Pro 6978 |   |    | 
+| Netcat-openbsd |  1.105-7ubuntu1  |  x86-64  | 
+| Curl |  7.47.0-1ubuntu2.12  |  x86-64  |
+| Grep (GNU) |  2.25  |  x86-64  |
+| Sed (GNU) |  4.2.2  |  x86-64  |
+| Iproute2 |  4.3.0  |  x86-64  |
+| Bc |  1.06.95(x86-64),1.07.1(Android)  |  Both  |
+| Parallel | 20161222(x86-64),20180222(Android) |  Both  |
 
 ## Usage
 
