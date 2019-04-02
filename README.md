@@ -34,25 +34,25 @@ All x86-64 Linux distributions.
 
 Android phones are also compatible through <a href="https://termux.com/">Termux</a>, an Android terminal application. 
 
-## How To Use
-
-Papers_Please is designed to be very quick and simple to use. As often times Papers_Please can be run without any flags. However, you can specify a network range with the `--network` flag. Or if not attacking an entire network, then use the `--target` flag to specify a specific host. You can optimize Papers_Please through the `--jobs`, `--proc`, and `--slots` flags. Said optimization options are also active by default with values of: 0, 1, and 252 respectively. Additionally Papers_Please will automatically scan for printers by default or when given an address range with the `--network` flag. However this functionality can be disabled with the `--no-scan` flag.
-
 ## Required Software
 
 | Package | Version | Platform |
 | :---:   | :---:   | :---:    |
-| Busybox |  1.30.1  |  Android  |  
-| Netcat-openbsd |  1.105-7ubuntu1  |  x86-64  | 
+| Netcat-openbsd |  1.105-7ubuntu1  |  x86-64  |
+| Parallel | 20161222(x86-64),20180222(Android) |  Both  |
+| Busybox |  1.30.1  |  Android  |
+| Iproute2 |  4.3.0  |  x86-64  |
 | Curl |  7.47.0-1ubuntu2.12  |  x86-64  |
 | Grep (GNU) |  2.25  |  x86-64  |
 | Sed (GNU) |  4.2.2  |  x86-64  |
-| Iproute2 |  4.3.0  |  x86-64  |
 | Bc |  1.06.95(x86-64),1.07.1(Android)  |  Both  |
-| Parallel | 20161222(x86-64),20180222(Android) |  Both  |
 
 **NOTE**:<br>
 Exact software versions are not required. They are only present as a reference for debugging purposes. 
+
+## How To Use
+
+Papers_Please is designed to be very quick and simple to use. As often times Papers_Please can be run without any flags. However, you can specify a network range with the `--network` flag. Or if not attacking an entire network, then use the `--target` flag to specify a specific host. You can optimize Papers_Please through the `--jobs`, `--proc`, and `--slots` flags. Said optimization options are also active by default with values of: 0, 1, and 252 respectively. Additionally Papers_Please will automatically scan for printers by default or when given an address range with the `--network` flag. However this functionality can be disabled with the `--no-scan` flag.
 
 ## Usage
 
