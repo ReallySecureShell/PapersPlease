@@ -39,12 +39,12 @@ Android phones are also compatible through <a href="https://termux.com/">Termux<
 | Package | Version | Platform |
 | :---:   | :---:   | :---:    |
 | Netcat-openbsd |  1.105-7ubuntu1  |  x86-64  |
-| Parallel | 20161222(x86-64),20180222(Android) |  Both  |
-| Busybox |  1.30.1  |  Android  |
-| Iproute2 |  4.3.0  |  x86-64  |
-| Curl |  7.47.0-1ubuntu2.12  |  x86-64  |
 | Grep (GNU) |  2.25  |  x86-64  |
 | Sed (GNU) |  4.2.2  |  x86-64  |
+| Busybox |  1.30.1  |  Android  |
+| Iproute2 |  4.3.0  |  x86-64  |
+| Parallel | 20161222(x86-64),20180222(Android) |  Both  |
+| Curl |  7.47.0-1ubuntu2.12  |  x86-64  |
 | Bc |  1.06.95(x86-64),1.07.1(Android)  |  Both  |
 
 **NOTE**:<br>
