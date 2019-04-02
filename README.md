@@ -28,12 +28,6 @@ At this time it is unknown exactly why the GGW server crashes when receiving suc
 **NOTE**:<br>
 While the above list provides known exploitable models, these do not need to be known to an attacker prior to exploiting.
 
-## Supported Platforms
-
-All x86-64 Linux distributions.
-
-Android phones are also compatible through <a href="https://termux.com/">Termux</a>, an Android terminal application. 
-
 ## Required Software
 
 Android users will need to install <a href="https://termux.com/">Termux</a> from the <a href="https://play.google.com/store/apps/details?id=com.termux">Google Play Store</a>.
