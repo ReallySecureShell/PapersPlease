@@ -51,6 +51,9 @@ Papers_Please is designed to be very quick and simple to use. As often times Pap
 | Bc |  1.06.95(x86-64),1.07.1(Android)  |  Both  |
 | Parallel | 20161222(x86-64),20180222(Android) |  Both  |
 
+**NOTE**:<br>
+The software versions are not to be taken as an absolute requirement. They are only present as a reference for debugging purposes. 
+
 ## Usage
 
 ```
