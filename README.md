@@ -159,8 +159,7 @@ OPTION:			    DESCRIPTION:
 			    terminal. Only the
 			    progress bar from
 			    parallel will be
-			    printed to the
-			    terminal in this
+			    printed in this
 			    mode.
 
 -v, --version		    Print version
