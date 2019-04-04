@@ -100,6 +100,15 @@ OPTION:			    DESCRIPTION:
 			    of pound signs (#) 
 			    to the remote host.
 			    Default is 5000.
+			    However this option
+			    needs to be called
+			    for anything with it
+			    to take effect. If 
+			    not called the user
+			    will either see 
+			    "foo-bar" or their
+			    custom message
+			    printed.
 
 -i, --interval={N}  	    The interval before
 			    another job is sent
