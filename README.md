@@ -118,22 +118,21 @@ OPTION:			    DESCRIPTION:
 			    number. The default
 			    interval is 1.
 
--j, --jobs={-N|+N|N%|N}     Number of jobs to
-			    run. Passes value
-			    to parallel.
+-j, --jobs={-N|+N|N%|N}     Run N number of 
+			    jobs in parallel.
 			    Defaults to 0.
 
 -p, --proc={-N|+N|N%|N}	    Define the maximum
-			    N of processes that
-			    can be active at a
-			    time. Defaults to
-			    1.
+			    N number of processes 
+			    that can be active at 
+			    a time. Defaults to 1.
 
--s, --slots={-N|+N|N%|N}    The amount of
-			    'slots' available
-			    to be used by
-			    parallel for jobs.
-			    Default is 250.
+-s, --slots={-N|+N|N%|N}    The N number 
+			    of file handles 
+			    available to be 
+			    used by parallel 
+			    for jobs. Default 
+			    is 250.
 
 -P, --port={PORT} 	    Specify a specific 
 			    port. Useful for 
