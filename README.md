@@ -60,7 +60,7 @@ Additionally PapersPlease can **mass print** by passing the `--papyrus` flag, wh
 ## Usage
 
 ```
-./PapersPlease.sh [OPTION]
+./Papers_Please.sh [OPTION]
 OPTION:			    DESCRIPTION:
 -t, --target={IP}	    Specify a specific
 			    target rather than
@@ -77,6 +77,29 @@ OPTION:			    DESCRIPTION:
 			    this should cause
 			    the printer to print
 			    N number of pages.
+
+    -m, --message={STRING}  Send a custom message
+			    to the printer when
+			    performing a mass-
+			    print attack. It 
+			    is important to have
+			    the string within
+			    double quotes. This 
+			    makes sure that space 
+			    characters are escaped 
+			    correctly. Additionally
+			    you MUST use dashes (-)
+			    or underscores (_) in-
+			    place of spaces in your
+			    message when running 
+			    without the --target
+			    flag. The default
+			    message is "foo-bar".
+			    
+    --ink=[N]		    Will send N number
+			    of pound signs (#) 
+			    to the remote host.
+			    Default is 5000.
 
 -i, --interval={N}  	    The interval before
 			    another job is sent
@@ -101,7 +124,7 @@ OPTION:			    DESCRIPTION:
 			    'slots' available
 			    to be used by
 			    parallel for jobs.
-			    Default is 252.
+			    Default is 250.
 
 -P, --port={PORT} 	    Specify a specific 
 			    port. Useful for 
