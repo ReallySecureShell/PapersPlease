@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="./Assets/Papers_Please_Logo.png" width="20%" />
+<img src="./Assets/papersPleaselogo.png" width="20%" />
 <br><br>
 </div>
 
