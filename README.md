@@ -55,12 +55,12 @@ Exact software versions are not required. They are only present as a reference f
 
 As PapersPlease can run without flags, it is quick and simple to use. You can specify a **network range** with the `--network` flag or a **single host** with the `--target` flag. You can **optimize** PapersPlease through the `--jobs`, `--proc`, and `--slots` flags. Optimizations are active by default with values of: 0, 1, and 250 respectively. By default or when passing the `--network` flag, PapersPlease will automatically scan for printers. Automatic scanning can be disabled with the `--no-scan` flag. 
 
-Additionally PapersPlease can **mass print** by passing the `--papyrus` flag, which can be used with either `--network` or `--target`. With this comes two other flags that are only valid when using mass print. The first being `--message`, which causes JetDirect to print a **custom message** to the documents. The second is the `--ink` flag, which specifies how many pound symbols (#) are to be printed to the document. Finally, to **disable all address restrictions**, pass the `--allow-all` flag. By specifying said flag, all public and private IP addresses will be allowed including all CIDR prefixes less-than or equal to 30.
+Additionally PapersPlease can **mass print** by passing the `--print` flag, which can be used with either `--network` or `--target`. With this comes two other flags that are only valid when using mass print. The first being `--message`, which causes JetDirect to print a **custom message** to the documents. The second is the `--ink` flag, which specifies how many pound symbols (#) are to be printed to the document. Finally, to **disable all address restrictions**, pass the `--allow-all` flag. By specifying said flag, all public and private IP addresses will be allowed including all CIDR prefixes less-than or equal to 30.
 
 ## Usage
 
 ```
-./Papers_Please.sh [OPTION]
+./PapersPlease.sh [OPTION]
 OPTION:			    DESCRIPTION:
 -t, --target={IP}	    Specify a specific
 			    target rather than
@@ -70,7 +70,7 @@ OPTION:			    DESCRIPTION:
 			    an address range
 			    to attack.
 
---papyrus={N}	    	    Number of jobs to
+--print={N}	    	    Number of jobs to
 			    send to the printer.
 			    If vulnerable, will
 			    cause N number of 
