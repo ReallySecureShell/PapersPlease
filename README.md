@@ -55,7 +55,7 @@ Exact software versions are not required. They are only present as a reference f
 
 As PapersPlease can run without flags, it is quick and simple to use. You can specify a **network range** with the `--network` flag or a **single host** with the `--target` flag. You can **optimize** PapersPlease through the `--jobs`, `--proc`, and `--slots` flags. Optimizations are active by default with values of: 0, 1, and 250 respectively. By default or when passing the `--network` flag, PapersPlease will automatically scan for printers. Automatic scanning can be disabled with the `--no-scan` flag. 
 
-Additionally PapersPlease can **mass print** by passing the `--papyrus` flag, which can be used with either `--network` or `--target`. With this comes two other flags that are only valid when using mass print. The first being `--message`, which can print a **custom message** to the print document. And the second is the `--ink` flag, which specifies how many pound symbols (#) are to be printed to the document. Finally, to **disable all address restrictions**, pass the `--allow-all` flag. By specifying said flag, all public and private IP addresses will be allowed including all CIDR prefixes less-than or equal to 30.
+Additionally PapersPlease can **mass print** by passing the `--papyrus` flag, which can be used with either `--network` or `--target`. With this comes two other flags that are only valid when using mass print. The first being `--message`, which causes JetDirect to print a custom message to the documents. The second is the `--ink` flag, which specifies how many pound symbols (#) are to be printed to the document. Finally, to **disable all address restrictions**, pass the `--allow-all` flag. By specifying said flag, all public and private IP addresses will be allowed including all CIDR prefixes less-than or equal to 30.
 
 ## Usage
 
@@ -64,19 +64,17 @@ Additionally PapersPlease can **mass print** by passing the `--papyrus` flag, wh
 OPTION:			    DESCRIPTION:
 -t, --target={IP}	    Specify a specific
 			    target rather than
-		     	    all addresses on
-			    the network.
+		     	    multiple.
 
--n, --network={IP/CIDR}     Manually specify the
-			    network address for
-			    the current network
-			    you are on.
+-n, --network={IP/CIDR}     Manually specify
+			    an address range
+			    to attack.
 
 --papyrus={N}	    	    Number of jobs to
-			    send to the printer
-			    this should cause
-			    the printer to print
-			    N number of pages.
+			    send to the printer.
+			    If vulnerable, will
+			    cause N number of 
+			    pages to be printed.
 
     -m, --message={STRING}  Send a custom message
 			    to the printer when
@@ -84,31 +82,18 @@ OPTION:			    DESCRIPTION:
 			    print attack. It 
 			    is important to have
 			    the string within
-			    double quotes. This 
-			    makes sure that space 
-			    characters are escaped 
-			    correctly. Additionally
-			    you MUST use dashes (-)
-			    or underscores (_) in-
-			    place of spaces in your
-			    message when running 
-			    without the --target
-			    flag. The default
-			    message is "foo-bar".
+			    DOUBLE QUOTES.
+			    Default message 
+			    is "foo-bar". 
 			    
-    --ink=[N]		    Will send N number
-			    of pound signs (#) 
-			    to the remote host.
-			    Default is 5000.
-			    However this option
-			    needs to be called
-			    for anything with it
-			    to take effect. If 
-			    not called the user
-			    will either see 
-			    "foo-bar" or their
-			    custom message
-			    printed.
+    --ink=[N]		    Adds N number of 
+			    pound signs (#)
+			    to the print job.
+			    This option is used
+			    to make a printer
+			    waste a large amount
+			    of ink. Default value
+			    is 6000.
 
 -i, --interval={N}  	    The interval before
 			    another job is sent
@@ -146,19 +131,25 @@ OPTION:			    DESCRIPTION:
 			    from 1 to 65535. 
 
 -a, --allow-all		    All address ranges 
-			    are allowed. BE CAREFUL 
-			    in this mode as it
-			    permits scanning of
-			    ANY address without
+			    are allowed. BE 
+			    CAREFUL in this 
+			    mode as it permits 
+			    scanning of ANY 
+			    address without 
 			    restriction.
 
 --no-scan		    Disables the automatic
-			    printer discovery scan.
-			    By disabling this function
-			    the attacker might not
-			    know how many hosts were
-			    successfully brought
-			    down.
+			    printer discovery 
+			    scan. By disabling 
+			    this function the 
+			    attacker might not 
+			    know how many hosts 
+			    were successfully 
+			    brought down.
+			    Also, no scan will
+			    be performed when
+			    the --target flag
+			    is specified.
 
 --no-check		    Will skip dependency
                             checking.
