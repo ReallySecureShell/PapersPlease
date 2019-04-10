@@ -92,7 +92,7 @@ OPTION:			    DESCRIPTION:
 			    to make a printer
 			    waste a large amount
 			    of ink. Default value
-			    is 6000.
+			    is 5500.
 
 -i, --interval={N}  	    The interval before
 			    another job is sent
