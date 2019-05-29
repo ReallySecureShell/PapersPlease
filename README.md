@@ -37,15 +37,15 @@ Android users will need to install <a href="https://termux.com/">Termux</a> from
 Termux is only available for **Android 5.0 and later**.
 
 | Package | Version | Platform |
-| :---:   | :---:   | :---:    |
-| Netcat-openbsd |  1.105-7ubuntu1  |  x86-64  |
-| Grep (GNU) |  2.25  |  x86-64  |
-| Sed (GNU) |  4.2.2  |  x86-64  |
-| Busybox |  1.30.1  |  Android  |
-| Iproute2 |  4.3.0  |  x86-64  |
-| Parallel | 20161222 (x86-64) \| 20180222 (Android) |  Both  |
-| Curl |  7.47.0-1ubuntu2.12  |  x86-64  |
-| Bc |  1.06.95 (x86-64) \| 1.07.1 (Android)  |  Both  |
+| :---    | :---:   | :---:    |
+| netcat-openbsd |  1.105-7ubuntu1  |  x86-64  |
+| grep (GNU) |  2.25  |  x86-64  |
+| sed (GNU) |  4.2.2  |  x86-64  |
+| busybox |  1.30.1  |  Android  |
+| iproute2 |  4.3.0  |  x86-64  |
+| parallel | 20161222 (x86-64) \| 20180222 (Android) |  Both  |
+| curl |  7.47.0-1ubuntu2.12  |  x86-64  |
+| bc |  1.06.95 (x86-64) \| 1.07.1 (Android)  |  Both  |
 
 **NOTE**:<br>
 Exact software versions are not required. They are only present as a reference for debugging purposes. 
