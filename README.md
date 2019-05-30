@@ -15,13 +15,13 @@ It is unknown at this time if GGW Version 2.0 is vulnerable to this exploit.
 
 The **Denial of Service** exploit is as follows:
 <br><br>
-`curl [IP]:9220 -X 'open 99999999'`
+`curl IP:9220 -X 'open 99999999'`
 <br><br>
 Whats happening here is we are telling the internal GGW server to retrieve the process name running on index number 99999999. However upon receiving the request, the GGW server will instantly crash. In addition, any index number 8 or 9 digits in length also causes the GGW server to crash.
 
 The **mass-print** exploit is as follows: 
 <br><br>
-`curl [IP]:9100 -m 1 -X 'Foo Bar'`
+`curl IP:9100 -m 1 -X 'Foo Bar'`
 <br><br>
 When abusing the JetDirect protocol, PapersPlease will connect to port 9100 on the remote host, then immediately disconnect. Which in some cases causes a document to be printed. With this exploit an attacker can print hundreds of copies from any vulnerable printer, wasting paper and ink. 
 
