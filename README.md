@@ -63,112 +63,112 @@ Additionally PapersPlease can **mass print** by passing the `--print` flag, whic
 
 ```
 ./Papers_Please.sh [OPTION]
-OPTION:			    	DESCRIPTION:
--t, --target {IP}		Specify a specific
-				target rather than
-				multiple.
+OPTION:			    DESCRIPTION:
+-t, --target {IP}	    Specify a specific
+			    target rather than
+		     	    multiple.
 
--n, --network {IP/CIDR}		Manually specify
-				an address range
-				to attack.
+-n, --network {IP/CIDR}     Manually specify
+			    an address range
+			    to attack.
 
---print {N}			Number of jobs to
-				send to the printer.
-				If vulnerable, will
-				cause N number of 
-				pages to be printed.
+--print {N}	    	    Number of jobs to
+			    send to the printer.
+			    If vulnerable, will
+			    cause N number of 
+			    pages to be printed.
 
-    -m, --message {STRING}	Send a custom message
-				to the printer when
-				performing a mass-
-				print attack. It 
-				is important to have
-				the string within
-				DOUBLE QUOTES.
-				Default message 
-				is "foo-bar". 
+    -m, --message {STRING}  Send a custom message
+			    to the printer when
+			    performing a mass-
+			    print attack. It 
+			    is important to have
+			    the string within
+			    DOUBLE QUOTES.
+			    Default message 
+			    is "foo-bar". 
 			    
-    --ink [N]			Adds N number of 
-				pound signs (#)
-				to the print job.
-				This option is used
-				to make a printer
-				waste a large amount
-				of ink. Default value
-				is 5500.
+    --ink [N]		    Adds N number of 
+			    pound signs (#)
+			    to the print job.
+			    This option is used
+			    to make a printer
+			    waste a large amount
+			    of ink. Default value
+			    is 5500.
 
--i, --interval {N}		The interval before
-				another job is sent
-				to the printer. Where
-				N can be a decimal
-				i.e. 0.1 or a whole
-				number. The default
-				interval is 1.
+-i, --interval {N}  	    The interval before
+			    another job is sent
+			    to the printer. Where
+			    N can be a decimal
+			    i.e. 0.1 or a whole
+			    number. The default
+			    interval is 1.
 
--j, --jobs {-N|+N|N%|N}		Run N number of 
-				jobs in parallel.
-				Defaults to 0.
+-j, --jobs {-N|+N|N%|N}     Run N number of 
+			    jobs in parallel.
+			    Defaults to 0.
 
--p, --proc {-N|+N|N%|N}		Define the maximum
-				N number of processes 
-				that can be active at 
-				a time. Defaults to 1.
+-p, --proc {-N|+N|N%|N}	    Define the maximum
+			    N number of processes 
+			    that can be active at 
+			    a time. Defaults to 1.
 
--s, --slots {-N|+N|N%|N}	The N number 
-				of file handles 
-				available to be 
-				used by parallel 
-				for jobs. Default 
-				is 250.
+-s, --slots {-N|+N|N%|N}    The N number 
+			    of file handles 
+			    available to be 
+			    used by parallel 
+			    for jobs. Default 
+			    is 250.
 
--P, --port {PORT}		Specify a specific 
-				port. Useful for 
-				port-forwarded
-				hosts. Port number 
-				is set automatically 
-				based on the attack
-				being preformed.
-				PORT can be any
-				number ranging
-				from 1 to 65535. 
+-P, --port {PORT} 	    Specify a specific 
+			    port. Useful for 
+			    port-forwarded
+			    hosts. Port number 
+			    is set automatically 
+			    based on the attack
+			    being preformed.
+			    PORT can be any
+			    number ranging
+			    from 1 to 65535. 
 
--a, --allow-all			All address ranges 
-				are allowed. BE 
-				CAREFUL in this 
-				mode as it permits 
-				scanning of ANY 
-				address without 
-				restriction.
+-a, --allow-all		    All address ranges 
+			    are allowed. BE 
+			    CAREFUL in this 
+			    mode as it permits 
+			    scanning of ANY 
+			    address without 
+			    restriction.
 
---no-scan			Disables the automatic
-				printer discovery 
-				scan. By disabling 
-				this function the 
-				attacker might not 
-				know how many hosts 
-				were successfully 
-				brought down. Also, 
-				no scan will be 
-				performed when
-				the --target or 
-				--ink flag(s) 
-				are specified.
+--no-scan		    Disables the automatic
+			    printer discovery 
+			    scan. By disabling 
+			    this function the 
+			    attacker might not 
+			    know how many hosts 
+			    were successfully 
+			    brought down. Also, 
+			    no scan will be 
+			    performed when
+			    the --target or 
+			    --ink flag(s) 
+			    are specified.
 
---no-check			Will skip dependency
-				checking.
+--no-check		    Will skip dependency
+                            checking.
 
--q, --quiet			Suppress output to
-				terminal. Only the
-				progress bar from
-				parallel will be
-				printed in this
-				mode.
+-q, --quiet		    Suppress output to
+			    terminal. Only the
+			    progress bar from
+			    parallel will be
+			    printed in this
+			    mode.
 
--v, --version			Print version
-				information
-				then exit.
+-v, --version		    Print version
+			    information
+			    then exit.
 
--h, --help			Print help
-				dialog then
-				exit.
+-h, --help		    Print help
+			    dialog then
+			    exit.
 ```
