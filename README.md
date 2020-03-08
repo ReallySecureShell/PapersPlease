@@ -36,28 +36,14 @@ While the above list provides known exploitable models, these do not need to be 
 
 ## Required Software
 
+Users will need to install `parallel` from their respective package managers.
+
+```
+apt install parallel
+```
+
 Android users will need to install <a href="https://termux.com/">Termux</a> from the <a href="https://play.google.com/store/apps/details?id=com.termux">Google Play Store</a>.<br>
 Termux is only available for **Android 5.0 and later**.
-
-| Package | Version | Platform |
-| :---    | :---:   | :---:    |
-| netcat-openbsd |  1.105-7ubuntu1  |  x86-64  |
-| grep (GNU) |  2.25  |  x86-64  |
-| sed (GNU) |  4.2.2  |  x86-64  |
-| busybox |  1.30.1  |  Android  |
-| iproute2 |  4.3.0  |  x86-64  |
-| parallel | 20161222 (x86-64) \| 20180222 (Android) |  Both  |
-| curl |  7.47.0-1ubuntu2.12  |  x86-64  |
-| bc |  1.06.95 (x86-64) \| 1.07.1 (Android)  |  Both  |
-
-**NOTE**:<br>
-Exact software versions are not required. They are only present as a reference for debugging purposes. 
-
-## How To Use
-
-As PapersPlease can run without flags, it is quick and simple to use. You can specify a **network range** with the `--network` flag or a **single host** with the `--target` flag. You can **optimize** PapersPlease through the `--jobs`, `--proc`, and `--slots` flags. Optimizations are active by default with values of: 0, 1, and 250 respectively. By default or when passing the `--network` flag, PapersPlease will automatically scan for printers. Automatic scanning can be disabled with the `--no-scan` flag. 
-
-Additionally PapersPlease can **mass print** by passing the `--print` flag, which can be used with either `--network` or `--target`. With this comes two other flags that are only valid when using mass print. The first being `--message`, which causes JetDirect to print a **custom message** to the documents. The second is the `--ink` flag, which specifies how many **pound symbols** (#) are to be **printed to the document**. Finally, to **disable all address restrictions**, pass the `--allow-all` flag. By specifying said flag, all public and private IP addresses will be allowed including all CIDR prefixes less-than or equal to 30.
 
 ## Usage
 
