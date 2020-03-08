@@ -6,7 +6,7 @@
 
 ## Description
 
-PapersPlease is an exploit that allows an attacker to perform a **Denial of Service** against a HP printer by crashing the internal GGW server.
+PapersPlease is an exploit that allows an attacker to perform a **Denial of Service** against an HP printer by crashing the internal GGW server.
 
 **NOTE:**<br>
 It is unknown at this time if GGW Version 2.0 is vulnerable to this exploit.
