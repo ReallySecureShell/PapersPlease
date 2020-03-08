@@ -43,7 +43,6 @@ apt install parallel
 ```
 
 Along with Parallel, Android users will need to install <a href="https://termux.com/">Termux</a> from the <a href="https://play.google.com/store/apps/details?id=com.termux">Google Play Store</a>.<br>
-Termux is only available for **Android 5.0 and later**.
 
 ## Usage
 
