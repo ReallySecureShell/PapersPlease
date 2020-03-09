@@ -117,14 +117,6 @@ OPTION:                     DESCRIPTION:
                             number ranging
                             from 1 to 65535.
 
--a, --allow-all             All address ranges
-                            are allowed. BE
-                            CAREFUL in this 
-                            mode as it permits
-                            scanning of ANY 
-                            address without
-                            restriction.
-
 --no-scan                   Disables the automatic
                             printer discovery 
                             scan. By disabling
