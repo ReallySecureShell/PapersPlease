@@ -36,7 +36,7 @@ While the above list provides known exploitable models, these do not need to be 
 
 ## Required Software
 
-Users will need to install `parallel` from their respective package managers.
+You will need to install `parallel` from your respective package manager.
 
 ```
 apt install parallel
